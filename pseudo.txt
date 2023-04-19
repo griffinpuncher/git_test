@@ -1,0 +1,24 @@
+function HM (stack, source, dest, extra) {
+    if(stack.height == 1) {
+        move stack[0] from source to dest
+    }
+    else {
+        HM(stack n-1, source, extra, dest)
+        Transfer ring n from source to dest
+        HM(stack n-1, extra, dest, source)
+    }
+    HM(stack, extra, dest, source)
+
+}
+
+function HM (stack, source, dest, extra) {
+    if(stack.height == 1) {
+        move stack[0] from source to dest
+    }
+    else {
+        HM(stack n-1, source, extra, dest)
+        Transfer ring n from source to dest
+        HM(stack n-1, extra, dest, source)
+    }
+}
+

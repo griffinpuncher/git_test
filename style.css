@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  #myButton {
+    padding: 5px 5px;
+    background-color: #5995DA;
+    border-radius: 8px;
+  }
   
   .menu-container {
     color: #fff;
